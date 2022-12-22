@@ -1,0 +1,41 @@
+/* ---------Heebo-Regular---------- */
+
+@font-face {
+    font-family: Heebo-Regular;
+    src: url(./Heebo-Regular.ttf);
+    font-style: normal;
+}
+
+
+/* ----------Heebo-Medium----------- */
+
+@font-face {
+    font-family: Heebo-Medium;
+    src: url(./Heebo-Medium.ttf);
+    font-style: normal;
+}
+
+
+/* ------------Heebo-Bold----------- */
+
+@font-face {
+    font-family: Heebo-Bold;
+    src: url(./Heebo-Bold.ttf);
+    font-style: normal;
+}
+
+
+/* ------------Heebo-Black----------- */
+
+@font-face {
+    font-family: Heebo-Black;
+    src: url(./Heebo-Black.ttf);
+}
+
+
+/* --------------Std-Book------------- */
+
+@font-face {
+    font-family: Std-Book;
+    src: url(./Circular-Std-Book.ttf);
+}

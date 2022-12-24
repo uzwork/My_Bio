@@ -88,6 +88,102 @@
     padding: 32px 0px;
 }
 
+.block_2 {}
+
+.block_2 .block_2-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.block_2 .block_2-text p,
+.block_2 .block_2-text a {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-size: 22px;
+    line-height: 60px;
+    /* color: var(--text-icon);  */
+}
+
+.block_2 .block_2-card {
+    display: flex;
+}
+
+.block_2-card .card_1 {
+    background: var(--white);
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.block_2-card .card_1 h1,
+.block_2-card .card_2 h1 {
+    font-family: 'Heebo-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: var(--text-icon);
+}
+
+.block_2-card .card_1_2-text {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+.block_2-card .card_1 p,
+.block_2-card .card_2 p {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-icon);
+    margin-bottom: 10px;
+}
+
+.block_2-card .card_1_2-text p {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--bg-img);
+}
+
+.block_2-card .card_2 {
+    background: var(--white);
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+/* ------------  footer  --------------- */
+
+.footer {
+    height: 180px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer_icon {
+    margin-bottom: 25px;
+}
+
+.footer .footer_icon a {
+    font-size: 30px;
+    margin: 0 10px;
+    color: var(--text-icon);
+}
+
+.footer p {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: var(--text-icon);
+}
+
 
 /* ------------  Media  --------------- */
 
@@ -120,6 +216,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+    /* --------- M block_1 600px --------- */
     .main .block_1 {
         height: 550px;
         display: flex;
@@ -138,6 +235,45 @@
     .main .block_1-text h1 {
         margin-top: 15px;
         text-align: center;
+    }
+    /* --------- M block_2 600px --------- */
+    .block_2 .block_2-text {
+        justify-content: space-evenly;
+    }
+    .block_2 .block_2-text p,
+    .block_2 .block_2-text a {
+        font-size: 18px;
+        line-height: 60px;
+    }
+    .block_2 .block_2-card {
+        display: flex;
+        flex-flow: column;
+    }
+    .block_2-card .card_1 {
+        margin: 0px 0px 10px 0px;
+    }
+    .block_2-card .card_1 h1,
+    .block_2-card .card_2 h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .block_2-card .card_1_2-text {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 20px 0px;
+    }
+    .block_2-card .card_1 p,
+    .block_2-card .card_2 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+    .block_2-card .card_1_2-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .block_2-card .card_2 {
+        margin: 10px 0px 0px 0px;
     }
 }
 

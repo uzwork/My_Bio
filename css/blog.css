@@ -1,0 +1,30 @@
+@import url(../css/all.css);
+@import url(../font/font.css);
+
+/* ------------  footer  --------------- */
+
+.footer {
+    height: 180px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer_icon {
+    margin-bottom: 25px;
+}
+
+.footer .footer_icon a {
+    font-size: 30px;
+    margin: 0 10px;
+    color: var(--text-icon);
+}
+
+.footer p {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: var(--text-icon);
+}

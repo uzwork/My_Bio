@@ -88,8 +88,6 @@
     padding: 32px 0px;
 }
 
-.block_2 {}
-
 .block_2 .block_2-text {
     display: flex;
     justify-content: space-between;
@@ -153,6 +151,84 @@
     margin-left: 10px;
     padding: 20px;
     border-radius: 4px;
+}
+
+
+/* ------------  Block-3  --------------- */
+
+.block_3 .block_3-head p {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-size: 22px;
+    line-height: 60px;
+    color: var(--text-icon);
+    padding: 10px 0px;
+    margin: 20px 0px;
+}
+
+.block_3 .card {
+    display: flex;
+    border-bottom: solid 1px var(--border-bottom);
+    padding: 30px 0px;
+}
+
+.block_3 .card-img {
+    margin-right: 20px;
+}
+
+.block_3 .card-img img {
+    width: 246px;
+    height: 180px;
+}
+
+.block_3 .card-text h1 {
+    font-family: 'Heebo-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: var(--text-icon);
+}
+
+.block_3 .card-text-db {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.block_3 .card-text-db button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: var(--white);
+    width: 62px;
+    height: 25px;
+    background: var(--text-icon);
+    border-radius: 16px;
+    margin-right: 25px;
+    border: none;
+}
+
+.block_3 .card-text-db p {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--smile-text);
+}
+
+.block_3 .card-text h2 {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-icon);
 }
 
 
@@ -274,6 +350,33 @@
     }
     .block_2-card .card_2 {
         margin: 10px 0px 0px 0px;
+    }
+    /* --------- M block_3 600px --------- */
+    .block_3 .block_3-head p {
+        text-align: center;
+    }
+    .block_3 .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .block_3 .card-img {
+        margin: 0px;
+    }
+    .block_3 .card-img img {
+        width: 300px;
+        height: 230px;
+    }
+    .block_3 .card-text h1 {
+        text-align: center;
+    }
+    .block_3 .card-text-db {
+        justify-content: center;
+    }
+    .block_3 .card-text h2 {
+        text-align: center;
+        width: 300px;
     }
 }
 

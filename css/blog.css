@@ -1,6 +1,78 @@
 @import url(../css/all.css);
 @import url(../font/font.css);
 
+/* ------------  Header  --------------- */
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px var(--smile-text);
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li a {
+    padding: 33px;
+    font-family: 'Heebo-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+
+/* ------------  Main  --------------- */
+
+.main .block_1 {}
+
+.main .block_1 h1 {
+    font-family: 'Heebo-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--text-icon);
+    margin: 50px 0px;
+}
+
+.main .block_1 .box {}
+
+.main .block_1 .box h2 {
+    font-family: 'Heebo-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: var(--text-icon);
+    margin-bottom: 16px;
+}
+
+.main .block_1 .box .box_text {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.main .block_1 .box .box_text p {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--btn-text);
+    padding-right: 20px;
+}
+
+.main .block_1 .box h3 {
+    font-family: 'Heebo-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-icon);
+    margin-bottom: 30px;
+}
+
+
 /* ------------  footer  --------------- */
 
 .footer {
@@ -27,4 +99,35 @@
     line-height: 21px;
     text-align: center;
     color: var(--text-icon);
+}
+
+
+/* ------------  Media  --------------- */
+
+@media(max-width:900px) {
+    .contaner {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:600px) {
+    .contaner {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* --------- M block_1 600px --------- */
+}
+
+@media(max-width:400px) {
+    .contaner {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav ul li a {
+        padding: 15px;
+    }
 }

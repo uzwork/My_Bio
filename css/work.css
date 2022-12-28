@@ -1,6 +1,92 @@
 @import url(../css/all.css);
 @import url(../font/font.css);
 
+/* ------------  Header  --------------- */
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px var(--smile-text);
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li a {
+    padding: 33px;
+    font-family: 'Heebo-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+
+/* ------------  Main  --------------- */
+
+.main .block_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.main .block_1 .box h1 {
+    font-family: 'Heebo-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    color: var(--text-icon);
+    margin: 30px 0px;
+}
+
+.main .block_1 .box .box_text {
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.main .block_1 .box .box_text button {
+    width: 60px;
+    font-family: 'Heebo-Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    align-items: center;
+    color: var(--white);
+    background: var(--btn-text);
+    border-radius: 16px;
+    border: none;
+    margin-right: 10px;
+}
+
+.main .block_1 .box .box_text p {
+    font-family: 'Heebo-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: var(--text-icon);
+}
+
+.main .block_1 .box h3 {
+    font-family: 'Heebo-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    margin-bottom: 40px;
+}
+
+.main .block_1 img {
+    margin: 15px 0px;
+    width: 900px;
+}
+
+
 /* ------------  footer  --------------- */
 
 .footer {
@@ -27,4 +113,43 @@
     line-height: 21px;
     text-align: center;
     color: var(--text-icon);
+}
+
+
+/* ------------  Media  --------------- */
+
+@media(max-width:900px) {
+    .contaner {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .block_1 img {
+        width: 600px;
+    }
+}
+
+@media(max-width:600px) {
+    .contaner {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .block_1 img {
+        width: 400px;
+    }
+}
+
+@media(max-width:400px) {
+    .contaner {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav ul li a {
+        padding: 15px;
+    }
+    .main .block_1 img {
+        width: 250px;
+    }
 }
